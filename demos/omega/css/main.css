@@ -25639,13 +25639,18 @@ p {
   letter-spacing: -0.66px;
   line-height: 39px;
 }
+::selection {
+    background-color: #FBAF00;
+    color: black;
+}
 
 .landing-5 .btn--primary {
   width: 252px;
   height: 60px;
   border-radius: 5px;
-  border: 1px solid #f0544c;
-  background-color: #f0544c;
+  border: 1px solid #FBAF00;
+text-transform: uppercase;
+  background-color: #FBAF00;
   color: #fff;
   display: -webkit-inline-box;
   display: inline-flex;
@@ -25728,7 +25733,7 @@ p {
 }
 
 .landing-5 .hero-area {
-  background-image: radial-gradient(circle 961px at 49.94% 0%, #504a93 0%, #413e65 100%);
+  background-color: #000;
   padding-top: 120px;
   padding-bottom: 80px;
 }
@@ -25764,7 +25769,7 @@ p {
   font-family: "CircularStd", sans-serif;
   font-weight: 700;
   letter-spacing: -2.81px;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 56px;
   margin-bottom: 23px;
 }
@@ -25786,7 +25791,7 @@ p {
 @media (min-width: 1200px) {
   .landing-5 .hero-content .title {
     margin-bottom: 33px;
-    font-size: 80px;
+    font-size: 70px;
     line-height: 84px;
   }
 }
@@ -26958,8 +26963,8 @@ p {
   width: 252px;
   height: 60px;
   border-radius: 5px;
-  border: 1px solid #f0544c;
-  background-color: #f0544c;
+  border: 1px solid #FBAF00;
+  background-color: #FBAF00;
   color: #fff;
   display: -webkit-inline-box;
   display: inline-flex;
